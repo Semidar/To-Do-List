@@ -1,0 +1,132 @@
+@import 'fonts';
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Noe-Display';
+    margin: 0 auto;
+}
+button{
+    cursor: pointer;
+}
+body{
+    padding: 100px 0;
+    background-color: #074081;
+    max-width: 1920px;
+    background-image: url('../img/ganapathy.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    background-size: 1920 auto;
+    .To-do-list{
+        padding: 50px 0;
+        width: 800px;
+        background-color: #02223b7a;
+        border-radius: 15px;
+        box-shadow: 0px 0px 70px 15px #011627;
+        .to-do-tittle{
+            font-size: 30px;
+            margin-bottom: 70px;
+            letter-spacing: 5px;
+            text-shadow: 4px 3px 11px white;
+        }
+        .to-do-panel{
+            .input-wraper{
+                margin-top: 25px;
+                margin-bottom: 50px;
+                .task{
+                    border-radius: 15px;
+                    width: 400px;
+                    height: 30px;
+                    border: none;
+                    outline: none;
+                    text-align: center;
+                    box-shadow: 0px 0px 70px 15px #0B539A;
+                }
+            }
+            .button-wraper{
+                .add-task{
+                    border-radius: 15px;
+                    width: 100px;
+                    height: 50px;
+                    background-color: #02223B;
+                    color: white;
+                    border: 2px solid white;
+                }
+                .add-task:hover{
+                    box-shadow: 0px 0px 40px 5px #0B539A;
+                    border: 2px solid #02223B;
+                    color: #02223B;
+                    background-color: white;
+                }
+            }
+        }
+    }
+    .my-tasks{
+        padding: 20px 0;
+        width: 800px;
+        height: 550px;
+        margin-top: 50px;
+        background-color: #02223b7a;;
+        border-radius: 15px;
+        box-shadow: 0px 0px 70px 15px #011627;
+        overflow: overlay;
+        .my-tasks-title{
+            font-size: 25px;
+            margin-bottom: 50px;
+        }
+        .tasks{
+            margin: 20px 0;
+            .item{
+                box-shadow: 0px 0px 40px 5px #0B539A;
+                background-color: white;
+                color: #02223B;
+                width: 400px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 10px;
+                border-radius: 15px;
+                margin-bottom: 25px;
+                .description{
+                    margin:  0;
+                }
+                .item-panel{
+                    display: flex;
+                    align-items: center;
+                    margin: 0;
+                    .dell-btn{
+                        width: 60px;
+                        height: 25px;
+                        background-color: #4c0a14d8;
+                        color: white;
+                        border: 2px solid #02223B;
+                        border-radius: 5px;
+                    }
+                    .dell-btn:hover{
+                        background-color: #4C0A14;
+                    }
+                    .complete-btn{
+                        appearance: none;
+                        width: 25px;
+                        height: 25px;
+                        border: 2px solid #02223B;
+                        margin-right: 10px;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        box-shadow: 0px 0px 5px 1px #011627;
+                    }
+                    .complete-btn:checked{
+                        background-image: url('../img/white-transparent.png');
+                        background-size: 20px auto;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-color: #02223B;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}
+

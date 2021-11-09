@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'Noe-Display';
+  src: url("../fonts/Noe.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  font-family: 'Noe-Display';
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  padding: 100px 0;
+  background-color: #074081;
+  max-width: 1920px;
+  background-image: url("../img/ganapathy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  background-size: 1920 auto;
+}
+
+body .To-do-list {
+  padding: 50px 0;
+  width: 800px;
+  background-color: #02223b7a;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 70px 15px #011627;
+          box-shadow: 0px 0px 70px 15px #011627;
+}
+
+body .To-do-list .to-do-tittle {
+  font-size: 30px;
+  margin-bottom: 70px;
+  letter-spacing: 5px;
+  text-shadow: 4px 3px 11px white;
+}
+
+body .To-do-list .to-do-panel .input-wraper {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+body .To-do-list .to-do-panel .input-wraper .task {
+  border-radius: 15px;
+  width: 400px;
+  height: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 70px 15px #0B539A;
+          box-shadow: 0px 0px 70px 15px #0B539A;
+}
+
+body .To-do-list .to-do-panel .button-wraper .add-task {
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: #02223B;
+  color: white;
+  border: 2px solid white;
+}
+
+body .To-do-list .to-do-panel .button-wraper .add-task:hover {
+  -webkit-box-shadow: 0px 0px 40px 5px #0B539A;
+          box-shadow: 0px 0px 40px 5px #0B539A;
+  border: 2px solid #02223B;
+  color: #02223B;
+  background-color: white;
+}
+
+body .my-tasks {
+  padding: 20px 0;
+  width: 800px;
+  height: 550px;
+  margin-top: 50px;
+  background-color: #02223b7a;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 70px 15px #011627;
+          box-shadow: 0px 0px 70px 15px #011627;
+  overflow: overlay;
+}
+
+body .my-tasks .my-tasks-title {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+body .my-tasks .tasks {
+  margin: 20px 0;
+}
+
+body .my-tasks .tasks .item {
+  -webkit-box-shadow: 0px 0px 40px 5px #0B539A;
+          box-shadow: 0px 0px 40px 5px #0B539A;
+  background-color: white;
+  color: #02223B;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 10px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+body .my-tasks .tasks .item .description {
+  margin: 0;
+}
+
+body .my-tasks .tasks .item .item-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+body .my-tasks .tasks .item .item-panel .dell-btn {
+  width: 60px;
+  height: 25px;
+  background-color: #4c0a14d8;
+  color: white;
+  border: 2px solid #02223B;
+  border-radius: 5px;
+}
+
+body .my-tasks .tasks .item .item-panel .dell-btn:hover {
+  background-color: #4C0A14;
+}
+
+body .my-tasks .tasks .item .item-panel .complete-btn {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 25px;
+  height: 25px;
+  border: 2px solid #02223B;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 5px 1px #011627;
+          box-shadow: 0px 0px 5px 1px #011627;
+}
+
+body .my-tasks .tasks .item .item-panel .complete-btn:checked {
+  background-image: url("../img/white-transparent.png");
+  background-size: 20px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #02223B;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */
